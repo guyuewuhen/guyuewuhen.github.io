@@ -43,3 +43,4 @@
         $('.navbar-main .catalogue').on('click', toggleToc);
     }
 })(jQuery);
+</div>
