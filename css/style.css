@@ -199,6 +199,7 @@ img.thumbnail {
 }
 .article .content {
   font-size: 1.1rem;
+  letter-spacing: 0.08rem;
 }
 .article .content blockquote.pullquote {
   float: right;
@@ -494,4 +495,14 @@ figure.highlight:hover .copy {
 }
 .gist .file {
   all: initial;
+}
+.post-copyright {
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
+  border-left: 3px solid #ff1700;
+  background-color: #f9f9f9;
+  list-style: none;
+}
+.post-copyright li {
+  line-height: 30px;
 }
